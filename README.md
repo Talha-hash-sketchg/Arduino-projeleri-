@@ -63,6 +63,7 @@ mesafe = sure * 0.034 / 2;
   // isterseniz bu değeri küçültürsen daha hızlı ölçüm alırsın (tavsiye etmem) 
   
 delay(200);
+
 }
 
 

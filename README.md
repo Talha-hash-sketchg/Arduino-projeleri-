@@ -4,44 +4,37 @@ yapıcağız.
 
  1. projemiz herkesin ilk aldığı arduino setlerinin içinden çıkan "HCSR04" (ultrasonik mesafe sensörü).
 
-İle mesafe ölçme kodunu yazacağı
-<h1>
-/*
-  HC-SR04 Mesafe Sensörü Kullanımı
-  Bu kod, sensörden gelen veriyi cm cinsinden Seri Port ekranına yazdırır.
-*/
+İle mesafe ölçme kodunu yazacağız
+<p1>
+HCSR04 pin tanımlamaları
 
-// Pin tanımlamaları
+ECHO=dijital pin 10 
+TRİG=dijital pin 9
+GND=GND 
+VCC=5V 
+<p1>
 const int trigPin = 9;
 const int echoPin = 10;
 
-// Değişkenler
 long sure;
 int mesafe;
 
 void setup() {
-  // Pin modlarını ayarlıyoruz
-  pinMode(trigPin, OUTPUT); // Ses dalgası gönderen pin
-  pinMode(echoPin, INPUT);  // Yankıyı alan pin
-  
-  // Sonuçları görmek için seri iletişimi başlatıyoruz
+  pinMode(trigPin, OUTPUT); 
+  pinMode(echoPin, INPUT);  
   Serial.begin(9600);
 }
 
 void loop() {
-  // 1. Sensörü temizlemek için Trig pinini düşük konuma getiriyoruz
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
-
-  // 2. 10 mikrosaniye boyunca ses dalgası gönderiyoruz
   digitalWrite(trigPin, HIGH);
   delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
 
-  // 3. Echo pininden dönen sinyalin süresini mikrosaniye olarak ölçüyoruz
   sure = pulseIn(echoPin, HIGH);
 
-  // burada mesafeyi is
+  // burada mesafeyi ses hızına bölüyoruz
   mesafe = sure * 0.034 / 2;
 
   

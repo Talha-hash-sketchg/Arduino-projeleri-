@@ -9,11 +9,14 @@ yapıcağız.
 HCSR04 pin tanımlamaları
 
 ECHO=dijital pin 10 
+
 TRİG=dijital pin 9
+
 GND=GND 
+
 VCC=5V 
 
-<h4>
+<h3>
 
 const int trigPin = 9;
 

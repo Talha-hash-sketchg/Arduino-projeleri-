@@ -16,6 +16,10 @@ GND=GND
 
 VCC=5V 
 
+<h2>
+İŞTE KOD
+
+
 <h3>
 
 const int trigPin = 9;

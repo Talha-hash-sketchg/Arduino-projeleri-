@@ -12,7 +12,8 @@ ECHO=dijital pin 10
 TRİG=dijital pin 9
 GND=GND 
 VCC=5V 
-<p1>
+
+<h4>
 
 const int trigPin = 9;
 

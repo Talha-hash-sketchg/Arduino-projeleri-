@@ -13,6 +13,7 @@ TRİG=dijital pin 9
 GND=GND 
 VCC=5V 
 <p1>
+
 const int trigPin = 9;
 
 const int echoPin = 10;

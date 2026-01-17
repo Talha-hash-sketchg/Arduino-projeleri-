@@ -17,7 +17,7 @@ GND=GND
 VCC=5V 
 
 <h2>
-İŞTE K
+İŞTE KOD
 
 
 <h3>

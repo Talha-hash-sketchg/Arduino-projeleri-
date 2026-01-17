@@ -1,8 +1,8 @@
 <p1>
-Ben Talha bugün sizler için çeşetli projeler 
+Ben Talha bugün sizler için çeşetlili projeler 
 yapıcağız.
-<p1>
+
  1. projemiz herkesin ilk aldığı arduino setlerinin içinden çıkan "HCSR04" (ultrasonik mesafe sensörü).
-<p1>
+
 İle mesafe ölçme kodunu yazacağı
 

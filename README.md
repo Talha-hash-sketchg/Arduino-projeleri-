@@ -4,5 +4,5 @@ yapıcağız.
 <p1>
  1. projemiz herkesin ilk aldığı arduino setlerinin içinden çıkan "HCSR04" (ultrasonik mesafe sensörü).
 <p1>
-İle mesafe ölçme kodunu yazacağız
+İle mesafe ölçme kodunu yazacağı
 

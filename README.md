@@ -73,7 +73,7 @@ delay(200);
 
 
 
-<h6>
+
 <p1>
 Şimdi ise Buton ile servo motor kontrolü yapıcağız
 <h3>

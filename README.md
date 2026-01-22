@@ -71,3 +71,18 @@ delay(200);
 }
 
 
+<p1>
+Şimdi ise Buton ile servo motor kontrolü yapıcağız
+<h3>
+Servo Motor Nedir? 
+<p1>
+Servo motor içindeki 5v DC motor ile yüksek tork üreten bir motordur. İçindeki dişli sistemi ile 9g veye endüstriyel olanlar 1kg
+tork üretebilir.Bizim kullanacağımız Servo 
+<h4>
+TowerPro
+SG90 
+<p1>
+Modeli hadi kod kısmına geçelim
+
+
+

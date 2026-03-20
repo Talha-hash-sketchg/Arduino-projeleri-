@@ -87,5 +87,7 @@ SG90
 <p1>
 Modeli hadi kod kısmına geçelim
 
+<p1>
+İlk önce kullanacağımız Servo kütüphanesini indirmeliyiz zaten birçok arduino ide platformunda otomatik olarak indiriliyor
 
 
